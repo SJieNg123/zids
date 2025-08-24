@@ -44,10 +44,10 @@ ZIDS/
 │  ├─ crypto/
 │  │  ├─ prg.py                        # G(seed, out_len) for pads (HMAC-SHA256-CTR/HKDF)
 │  │  ├─ prf.py                        # PRF, domain separation for labels
-│  │  └─ hmac.py                       # HMAC utilities (if not using stdlib)
+│  │  └─ hmac.py                       # HMAC utilities (if not using stdlib, in this project we use stdlib)
 │  ├─ ot/
 │  │  ├─ base_ot2/
-│  │  │  ├─ ddh_ot.py                  # 1-of-2 base OT (Naor–Pinkas), EC or finite-field
+│  │  │  ├─ ddh_ot.py                  # 1-of-2 base OT (Naor–Pinkas)
 │  │  │  └─ iknp_extension.py          # OT extension for many parallel OT2 (and long strings)
 │  │  ├─ ot_1ofm.py                    # log(m) × OT2 composition
 │  │  └─ ot_1of256.py                  # 1-of-256 wrapper (8×OT2), bytes in/out (GOT/QOT/AOT/DOT facades)
