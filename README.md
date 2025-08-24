@@ -1,4 +1,6 @@
-zids/
+## Project Structure
+```
+ZIDS/
 ├─ client/
 │  ├─ offline/
 │  │  └─ param_setup.py                # Step 0 — GOT: base OT/extension setup
@@ -68,3 +70,4 @@ zids/
 │  └─ integration/
 │     └─ test_end_to_end_smallset.py
 └─ README.md
+```
