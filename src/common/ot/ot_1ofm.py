@@ -1,11 +1,11 @@
 # common/ot/ot_1ofm.py
 from __future__ import annotations
 import os
-from typing import List, Union, Tuple
+from typing import List, Union
 
-from common.utils.encode import i2osp, os2ip, q_byte_len, xor_bytes
-from common.crypto.prf import prf_msg
-from common.ot.base_ot2.ddh_ot import DDHOTSender, DDHOTReceiver
+from src.common.utils.encode import i2osp, os2ip, q_byte_len, xor_bytes
+from src.common.crypto.prf import prf_msg
+from src.common.ot.base_ot2.ddh_ot import DDHOTSender, DDHOTReceiver
 
 PayloadItem = Union[int, bytes]
 
