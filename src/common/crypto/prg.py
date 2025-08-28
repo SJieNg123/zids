@@ -4,7 +4,7 @@ import hmac
 import hashlib
 from typing import Optional
 
-from common.utils.encode import i2osp
+from src.common.utils.encode import i2osp
 
 _HASH = hashlib.sha256
 _BLOCKLEN = _HASH().digest_size  # 32 bytes for SHA-256
